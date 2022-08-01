@@ -1,6 +1,6 @@
 class 
 
-def  init (self, size): self.top = -1
+def  init (self, size): self.top = -1:
 self.size = size self.lst = [None]*size
 
 
