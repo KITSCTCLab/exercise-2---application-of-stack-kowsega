@@ -1,6 +1,6 @@
 class Evaluate: 
 
-def  init (self, size): self.top = -1
+def _ init _(self, size): self.top = -1
 self.size = size self.lst = [None]*size
 
 
@@ -12,7 +12,7 @@ else :
 return 0
 
 
-def is_full(self):
+def _is_full(self):
 
 if self.top == (self.size - 1): return 1
 else :
